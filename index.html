@@ -1,0 +1,49 @@
+---
+layout: default
+title: {{ site.name }}
+---
+<div id="prez">
+  <h2>Qu'est-ce que ce site?</h2>
+  <p>
+Bienvenue sur mon port folio, où je rassemble mes plus récents travaux quelques peu intéressants. Mes projets sont variés et beaucoup sont multi-disciplinaires: graphisme, développement de logiciels, implementation d'algorithmes complexes tels que des Intelligences- Artificielles ou de l'algorithmique génétique, automatisations et scripts/macros... 
+  </p>
+  <p>
+Si vous avez besoin d'évaluer la qualité de mon code ou d'évaluer mes compétences, n'hésitez pas à vous pencher sur les divers projets rassemblés ci dessous. Bien que j'aie appris la grande majorité de ces compétences en auto didacte, n'hésitez pas a me proposer un rôle au sein d'une équipe, j'aimerais beaucoup travailler à plusieurs sur des projets communs!
+  </p>
+  <h2>Des questions?</h2>
+  Si vous avez plus de questions ou êtes intéressés par l'un de ces projets, n'hesitez pas a me contacter à l'adresse <a href="mailto:christopher.jacquiot@gmail.com">christopher.jacquiot@gmail.com</a>.
+
+</div>
+<div id="projects">
+  <h1>Projets terminés</h1>
+  <h2>Graphisme</h2>
+  <ul class="posts">
+    {% for post in site.posts %}
+      {% if post.type == "graphisme" %}
+      <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>{{ post.excerpt }}        
+</li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+  <h2>Intelligence Artificielle</h2>
+
+  <ul class="posts">
+    {% for post in site.posts %}
+      {% if post.type == "IA" %}
+      <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>    
+</li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+  <h2>Web</h2>
+
+  <ul class="posts">
+    {% for post in site.posts %}
+      {% if post.type == "web" %}
+      <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+{{ post.excerpt }}        
+</li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>

@@ -1,2 +1,17 @@
-theme: jekyll-theme-cayman
-title: Hello world!
+# Setup
+title:        Hello World!
+tagline:      Portfolio personnel
+baseurl:      ""
+paginate:     1
+
+# About/contact
+author:
+  name:       Jacquiot Christopher
+  url:        http://helldragger.github.io
+
+# Gems
+gems:
+  - jekyll-paginate
+
+#Others
+markdown: kramdown
