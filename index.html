@@ -25,6 +25,16 @@ Si vous avez besoin d'évaluer la qualité de mon code ou d'évaluer mes compét
       {% endif %}
     {% endfor %}
   </ul>
+  <h2>Automatisation</h2>
+
+  <ul class="posts">
+    {% for post in site.posts %}
+      {% if post.type == "auto" %}
+      <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>    
+</li>
+      {% endif %}
+    {% endfor %}
+  </ul>
   <h2>Intelligence Artificielle</h2>
 
   <ul class="posts">
