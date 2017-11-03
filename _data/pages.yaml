@@ -1,0 +1,50 @@
+dev:
+  title:  développeur
+  name: dev
+  buttons:
+    - text: Voir sur Hackerrank
+      url:  https://www.hackerrank.com/Helldragger
+    - text: Voir sur LinkedIn
+      url:  https://www.linkedin.com/in/christopher-jacquiot-6291a5b2/
+    - text: Voir sur Github
+      url:  https://github.com/helldragger
+  desc:   |-
+        Bienvenue sur mon port folio, où je rassemble mes plus récents travaux quelques peu intéressants.
+        Mes projets sont variés et beaucoup sont multi-disciplinaires: graphisme, développement de logiciels,
+        implementation d'algorithmes complexes tels que des Intelligences- Artificielles ou de l'algorithmique
+        génétique, automatisations et scripts/macros...
+
+
+        Si vous avez besoin d'évaluer la qualité de mon code ou d'évaluer mes compétences, n'hésitez pas à vous pencher
+        sur les divers projets rassemblés ci dessous.
+        Bien que j'aie appris la grande majorité de ces compétences en auto didacte, n'hésitez pas a me proposer un rôle
+        au sein d'une équipe, j'aimerais beaucoup travailler à plusieurs sur des projets communs!
+  types:
+    - name: Intelligence Artificielle
+      tag:  IA
+    - name: Outils
+      tag:  OUTILS
+#    - name: Web
+#      tag:  WEB
+
+stream:
+  title:  streamer
+  name: stream
+  buttons:
+    - text: Voir sur Twitch
+      url:  https://go.twitch.tv/helldragger2
+    - text: Voir sur Facebook
+      url:  https://www.facebook.com/helldragger2/
+  desc:   |-
+        Streamer sur Twitch.tv sous le pseudonyme de Helldragger2 depuis fin 2017.
+        Particulièrement porté sur des jeux de gestion et de programmation comme Factorio, je streame aussi des jeux de
+        rythme tels que Osu! ainsi que des battle royale sur FortNite.
+        D'autres jeux sont en projets mais plus de matériel sera nécessaire avant tout.
+
+
+        N'hésitez pas à venir découvrir Factorio tous les mardi soir sur la chaîne!
+  types:
+#    - name: Evènements
+#      tag:  EVENT
+#    - name: Replay
+#      tag:  REPLAY

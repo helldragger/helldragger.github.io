@@ -1,0 +1,13 @@
+sections:
+
+  - title:  développeur
+    desc:   |-
+        Du C au python, en passant par MySQL, Java et d'autres.
+        Je crée des outils, des bots, voire parfois des IA..
+    tag:   dev
+
+  - title:  streamer
+    desc:   |-
+        Joueur de jeux de gestion, RPGs et de jeux de rythme.
+        Je streame principalement du Factorio tous les mardi..
+    tag:   stream
