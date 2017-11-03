@@ -1,7 +1,26 @@
----
-layout: default
----
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<!DOCTYPE html>
+<html lang="en-us">
 
-{{ content }}
+{% include head.html %}
+
+<body>
+<nav>
+    {% assign menu = site.menus.header %}
+    {% include menus.html %}
+</nav>
+
+
+<section class="main-content">
+    <div class="post-head">
+        <h2>{{ page.title }}</h2>
+        <p class="meta">{{ page.date | date_to_string }}</p>
+    </div>
+    {{ content }}
+
+    {% include page-footer.html %}
+
+</section>
+
+</body>
+</html>
+
