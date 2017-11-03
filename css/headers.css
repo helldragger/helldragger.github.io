@@ -1,0 +1,6 @@
+---
+---
+
+.page-header{
+    background-image: {% if page.headbg %}{{ page.headbg }}{% else %}{linear-gradient(120deg, #155799, #159957)};
+}
