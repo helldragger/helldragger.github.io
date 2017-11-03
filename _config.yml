@@ -2,7 +2,9 @@
 title:        Hello World!
 tagline:      Portfolio personnel
 baseurl:      ""
-paginate:     1
+paginate:     9
+paginate_path:  "/blog/page:num/"
+permalink:  pretty
 
 # About/contact
 author:
@@ -10,8 +12,9 @@ author:
   url:        https://www.linkedin.com/in/christopher-jacquiot-6291a5b2/
 
 # Gems
-gems:
+plugins:
   - jekyll-paginate
+  - jekyll-menus
 
 #Others
 markdown: kramdown

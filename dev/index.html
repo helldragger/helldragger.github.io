@@ -1,0 +1,32 @@
+---
+layout: default
+title: {{ site.name }}
+section: dev
+
+menus:
+    header:
+        title:  Un développeur
+        weight: 2
+---
+<section id="prez">
+    <h2>C'est-à-dire?</h2>
+    <p>
+        {{ data.desc }}
+    </p>
+
+</section>
+<section id="projects">
+    {% for type in site.data.pages[page.section].types %}
+        <h2>{{ type.name }}</h2>
+        <ul class="posts">
+
+        {% for post in site.posts %}
+            {% if post.type == type.tag %}
+            <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                {{ post.excerpt }}
+            </li>
+            {% endif %}
+        {% endfor %}
+        </ul>
+    {% endfor %}
+</section>
