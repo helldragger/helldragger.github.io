@@ -3,7 +3,7 @@ layout:     post
 title:      "Automatisation of programming"
 date:       2017-04-20
 categories: dev
-type:       auto
+type:       OUTILS
 ---
 
 Well, it's been a week since I have had this idea in my head: what if I could instantaneously call some generic algorithm to my editor and don't having to add a big library as dependency, in order to stop having to reinvent the wheel each time I code something? Why should I keep losing my time rewriting again and again the same algorithms I use all the time?
